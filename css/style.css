@@ -1,0 +1,105 @@
+/* -----------------------------------------------------------------
+                                        GeneralStyle
+------------------------------------------------------------------*/
+body {
+  font-family: vazir;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* -----------------------------------------------------------------
+                                        Header
+------------------------------------------------------------------*/
+/* Nav Top */
+.navTopUl {
+  font-size: 0.85rem;
+}
+.pragraphInNavTop {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.navTopUl {
+  margin: 10px 0px;
+}
+.navTopUl a {
+  color: white;
+  transition: 0.2s;
+}
+.navTopUl a:hover {
+  color: rgb(241, 241, 241);
+}
+/* Midd Header */
+.logoImg {
+  width: 15rem;
+  height: 60px;
+}
+@media (max-width: 314px) {
+  .logoImg {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .logoImg {
+    width: 10rem;
+    height: 30px;
+  }
+}
+.shopcart {
+  width: 50px;
+  height: 50px;
+  
+}
+.shopcart-sm {
+  width: 44px;
+  height: 44px;
+}
+.shoping-hover {
+  transition: 0.5s;
+}
+    .shoping-hover:hover {
+    background-color: #00000005;
+    }
+.searcheForm {
+  border-radius: 0;
+}
+
+@media (min-width: 992px) {
+  #collapseOne1.navbar-collapse {
+    display: none !important;
+  }
+}
+.cartShopSize{
+width: 25.25rem;
+}
+/* sections */
+.img-prodoct{
+    height: 250px;
+}
+.titleShowProdcot{
+margin-top: 50px;
+
+}
+.hrShowProdoct{
+  margin-top: -40px;
+  margin-bottom: 4rem;
+
+}
+h5.badge{
+  font-size: 1rem;
+}
+.btn-shoping{
+  z-index: 1;
+}
+/* basket */
+
+.m-manfi{
+  margin-top: -35px;
+}
+/* footer */
+#footer{
+  margin-top:5  rem ;
+  background: rgb(224, 224, 224)
+}
